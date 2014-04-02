@@ -1,0 +1,22 @@
+<head>
+  <title>geotest</title>
+</head>
+
+<body>
+    <h2>Before User Permission</h2>
+    {{> geolocationTrackingPermission}}
+
+    <h2>After User Permission</h2>
+    <p>
+        Tracking is
+        {{#if geoLocationTrackingAllowed}}
+            allowed
+        {{else}}
+            NOT ALLOWED
+        {{/if}}
+    </p>
+    <ul>
+        <li>Latitude: {{geoLocationTrackingLatitude}}</li>
+        <li>Longitude: {{geoLocationTrackingLongitude}}</li>
+    </ul>
+</body>

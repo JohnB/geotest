@@ -1,0 +1,15 @@
+{
+  "meteor": {},
+  "dependencies": {
+    "basePackages": {
+      "geolocation": {
+        "path": "../../../John/jbaylor_personal_junk/geolocation"
+      }
+    },
+    "packages": {
+      "geolocation": {
+        "path": "../../../John/jbaylor_personal_junk/geolocation"
+      }
+    }
+  }
+}
